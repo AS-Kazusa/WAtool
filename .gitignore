@@ -1,0 +1,7 @@
+# 项目排除路径
+target/
+test/
+pom.xml
+script.js
+todo.md
+WAtool.md
