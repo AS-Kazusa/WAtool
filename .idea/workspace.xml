@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="feat: Java工具库" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="javaWeb" />
+        <option value="java" />
+        <option value="Class" />
+        <option value="JavaFormwork" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/src/main/java/kazusa" source="WAtool/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kazusa &lt;2973768982@qq.com&gt;" />
+        <option value="kazusa" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/src/main/java/kazusa" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a29fac23-18d9-4ef5-b41b-87b00faf52d0" />
+        <option name="url" value="https://github.com/AS-Kazusa/WAtool.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="S:\lib\maven_local_warehouse" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../developmenttools/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MlGfsq75Uys1cMo4jKCguSmOOE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/DevelopmentProject/main/WAtool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\DevelopmentProject\main\WAtool" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\common\codegenerator" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\resources" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\common" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\ce" />
+      <recent name="S:\DevelopmentProject\main\WAtool" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\ast" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\common\codegenerator\formwork" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kazusa.ce" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kazusa.antion" />
+      <recent name="kazusa.外部调用" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpTest.httpRequestTest">
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tester" />
+      <module name="WAtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="http" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.http.http" />
+      <module name="WAtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kazusa.web.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kazusa.web.http.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.http.test" />
+      <module name="WAtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kazusa.web.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpTest.httpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WAtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kazusa.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kazusa.web" />
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.HttpTest" />
+      <option name="METHOD_NAME" value="httpRequestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpTest.httpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WAtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kazusa.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kazusa.web" />
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.HttpTest" />
+      <option name="METHOD_NAME" value="httpTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HttpTest.httpRequestTest" />
+        <item itemvalue="应用程序.Tester" />
+        <item itemvalue="应用程序.kazusa.web.http.test" />
+        <item itemvalue="应用程序.http" />
+        <item itemvalue="JUnit.HttpTest.httpTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="" />
+      <created>1678334861851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678334861851</updated>
+      <workItem from="1678334862945" duration="1806000" />
+      <workItem from="1678415389768" duration="3737000" />
+      <workItem from="1678419974989" duration="22997000" />
+      <workItem from="1678507734707" duration="22869000" />
+      <workItem from="1678591086234" duration="16906000" />
+      <workItem from="1678676402419" duration="7466000" />
+      <workItem from="1678760350582" duration="742000" />
+      <workItem from="1678770704835" duration="3507000" />
+      <workItem from="1678846933617" duration="41044000" />
+      <workItem from="1678932220600" duration="9209000" />
+      <workItem from="1678944501018" duration="10899000" />
+      <workItem from="1679019386023" duration="16070000" />
+      <workItem from="1679111519781" duration="5578000" />
+      <workItem from="1679119526095" duration="1811000" />
+      <workItem from="1679121384467" duration="130000" />
+      <workItem from="1679122381103" duration="6069000" />
+      <workItem from="1679189913180" duration="18030000" />
+      <workItem from="1679277573419" duration="7951000" />
+      <workItem from="1679287354557" duration="8625000" />
+      <workItem from="1679361939364" duration="15214000" />
+      <workItem from="1679379334669" duration="26813000" />
+      <workItem from="1679448984587" duration="8707000" />
+      <workItem from="1679469489117" duration="2918000" />
+      <workItem from="1679533772484" duration="10871000" />
+      <workItem from="1679549403444" duration="14755000" />
+      <workItem from="1679619553185" duration="12729000" />
+      <workItem from="1679649714695" duration="4863000" />
+      <workItem from="1679667119453" duration="43000" />
+      <workItem from="1679667428043" duration="758000" />
+      <workItem from="1679708526727" duration="780000" />
+      <workItem from="1679728750337" duration="1323000" />
+      <workItem from="1679792611985" duration="626000" />
+      <workItem from="1679973407060" duration="121000" />
+      <workItem from="1680057860580" duration="4044000" />
+      <workItem from="1680062184322" duration="54000" />
+      <workItem from="1680062256670" duration="173000" />
+      <workItem from="1680065089138" duration="5826000" />
+      <workItem from="1680155571697" duration="860000" />
+      <workItem from="1680159302947" duration="5763000" />
+      <workItem from="1680232448966" duration="9704000" />
+      <workItem from="1680316778383" duration="6724000" />
+      <workItem from="1680331176365" duration="833000" />
+      <workItem from="1680332070064" duration="6071000" />
+      <workItem from="1680338206338" duration="10000" />
+      <workItem from="1680341478546" duration="1532000" />
+      <workItem from="1680343041670" duration="3320000" />
+      <workItem from="1680346775327" duration="1037000" />
+      <workItem from="1680413862711" duration="2000" />
+      <workItem from="1680485933026" duration="6028000" />
+      <workItem from="1680492288590" duration="3496000" />
+      <workItem from="1680495829362" duration="170000" />
+      <workItem from="1680496011929" duration="4090000" />
+      <workItem from="1680501810259" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 工具库">
+      <created>1680343583049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343583049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 工具库">
+      <created>1680347176812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680347176812</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 工具库">
+      <created>1680347215242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680347215242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:Java工具库">
+      <created>1680492618359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680492618359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:Java工具库">
+      <created>1680493715548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680493715548</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:Java工具库">
+      <created>1680494503317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680494503317</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat:Java工具库">
+      <created>1680498043806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680498043806</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat:Java工具库">
+      <created>1680498537221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680498537221</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Java工具库">
+      <created>1680501309430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680501309430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="2260c6d0-d7a4-4fa6-b405-07fd169cbf48">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="9aa5a923-5f24-4f83-8a24-fe949511a61b">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:S:/DevelopmentProject/main/WAtool/src/main/java/kazusa" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="2260c6d0-d7a4-4fa6-b405-07fd169cbf48" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/main/java/kazusa" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="feat: 工具库" />
+    <MESSAGE value="feat:Java工具库" />
+    <MESSAGE value="feat: Java工具库" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Java工具库" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
