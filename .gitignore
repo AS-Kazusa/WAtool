@@ -4,4 +4,5 @@ test/
 pom.xml
 script.js
 todo.md
-WAtool.md
+README.md
+logback.xml
