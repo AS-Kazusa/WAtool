@@ -387,6 +387,7 @@ public class IOUtil {
 	 * @param index 起始范围
 	 * @param length 结束范围
 	 * @return 直接缓冲区:将文件内指定范围字节数据加载到内存中
+	 * @since 1.1.0
 	 * @throws IOException
 	 */
 	public static MappedByteBuffer getDirectBuffer(String path, String model,FileChannel.MapMode mode,int index, int length) throws IOException {
