@@ -395,6 +395,17 @@ public class IOUtil {
 	}
 
 	/**
+	 * 下载
+	 * @param path 下载路径
+	 * @param data 数据
+	 * @throws IOException
+	 */
+	public static void download(String path, byte[] data) throws IOException {
+		BufferedOutputStream out = IOUtil.getOutputStream(path);
+		CodeOptimizeUtil.tryCatchFinallyClose(() -> out.write(bytes),out);
+	}
+
+	/**
 	 * 字节流IO读取
 	 * @param in 字节输入流
 	 * @param out 字节输出流
