@@ -8,6 +8,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 注解
@@ -87,15 +88,11 @@ public class ReflexUtil {
 	 * class对象获取持有的注解对象
 	 * @param aClass 类对象
 	 * @param annotationClass 注解
+	 * @param annotations 排除注解集合
 	 * @return 注解对象
 	 */
-	public static Annotation getAnnotation(Class<?> aClass,Class<? extends Annotation> annotationClass) {
-		if (!AnnotateUtil.isAnnotationInterface(aClass,annotationClass)) return null;
-		// 获取该class对象持有接口
-		for (Annotation annotation : aClass.getAnnotations()) {
-			if (annotation ==  aClass.getAnnotation(annotationClass)) return annotation;
-		}
-		return null;
+	public static Annotation getAnnotation(Class<?> aClass, Class<? extends Annotation> annotationClass, Set<Class< ? extends Annotation>> annotations) {
+		return AnnotateUtil.getAnnotation(aClass,annotationClass,annotations);
 	}
 
 	/**
