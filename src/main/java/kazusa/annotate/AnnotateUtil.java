@@ -67,6 +67,7 @@ public class AnnotateUtil {
 	 * @param annotationClass 注解
 	 * @param annotations 排除注解集合
 	 * @return 注解
+	 * @since 1.1.0
 	 */
 	public static Annotation getAnnotation(AnnotatedElement annotatedElement, Class< ? extends Annotation> annotationClass,Set<Class< ? extends Annotation>> annotations) {
 		if (isAnnotation(annotatedElement,annotationClass,annotations)) return annotatedElement.getAnnotation(annotationClass);
