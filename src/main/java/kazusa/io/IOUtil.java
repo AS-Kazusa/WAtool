@@ -398,12 +398,40 @@ public class IOUtil {
 	/**
 	 * 下载
 	 * @param path 下载路径
-	 * @param data 数据
+	 * @param data 数据(byte[] or string)
 	 * @throws IOException
+	 * @since 1.1.0
 	 */
-	public static void download(String path, byte[] data) throws IOException {
-		BufferedOutputStream out = IOUtil.getOutputStream(path);
-		CodeOptimizeUtil.tryCatchFinallyClose(() -> out.write(bytes),out);
+	public static <T> void download(String path, T data) throws IOException {
+		download(path,List.of(data));
+	}
+
+	/**
+	 * 下载
+	 * @param path 下载路径
+	 * @param dataS 数据集合(byte[] or string)
+	 * @throws IOException
+	 * @since 1.1.0
+	 */
+	public static <T> void download(String path, List<T> dataS) throws IOException {
+		if (dataS.size() == 0) return;
+		if (dataS.get(0) instanceof byte[]) {
+			BufferedOutputStream out = IOUtil.getOutputStream(path);
+			CodeOptimizeUtil.tryCatchFinallyClose(() -> {
+				for(T data: dataS) {
+					out.write((byte[]) data);
+				}
+			},out);
+			return;
+		}
+		if (dataS.get(0) instanceof String) {
+			BufferedWriter writerOutputStream = IOUtil.getWriterOutputStream(path);
+			CodeOptimizeUtil.tryCatchFinallyClose(() -> {
+				for(T data: dataS) {
+					writerOutputStream.write((String) data);
+				}
+			},writerOutputStream);
+		}
 	}
 
 	/**
@@ -439,6 +467,7 @@ public class IOUtil {
 	/**
 	 * 序列化非对象数据类型
 	 */
+	@Deprecated
 	public static class ObjectOutputStream_ {
 
 		private static ObjectOutputStream objectOutputStream;
