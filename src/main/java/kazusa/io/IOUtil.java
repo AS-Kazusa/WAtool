@@ -233,6 +233,17 @@ public class IOUtil {
 		return new ByteArrayOutputStream();
 	}
 
+	/**
+	 * 文件对象转文件流对象
+	 * @param path 文件路径
+	 * @return 文件流
+	 * @throws FileNotFoundException
+	 * @since 1.1.0
+	 */
+	public static FileInputStream getFileInputStream(String path) throws FileNotFoundException {
+		return new FileInputStream(path);
+	}
+
 	public static BufferedInputStream getInputStream(String path) throws FileNotFoundException {
 		return new BufferedInputStream(new FileInputStream(path));
 	}
