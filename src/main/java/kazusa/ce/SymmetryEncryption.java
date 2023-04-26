@@ -37,24 +37,9 @@ public class SymmetryEncryption {
 
 	/**
 	 * 明文长度填充参数:默认使用PKCS5Padding填充
-	 * nopadding:不填充,明文字节长度需为16的倍数
-	 * PKCS5Padding:填充,对明文字节长度无要求,为7的子集,固定块的大小为8字节
-	 * PKCS7Padding:填充,对明文字节长度无要求
 	 */
 	private String fillParameters;
 
-	/**
-	 * 加密指定的算法,模式,填充参数
-	 * 算法	密钥长度	工作模式	填充模式
-	 * DES	56/64	ECB/CBC/PCBC/CTR/...	NoPadding/PKCS5Padding/...
-	 * RC5
-	 * IDEA	128	ECB	PKCS5Padding/PKCS7Padding/...
-	 * RC6 128
-	 * SM4 128
-	 * AES	128/192/256	ECB/CBC/PCBC/CTR/...	NoPadding/PKCS5Padding/PKCS7Padding/...
-	 * 序列算法:
-	 * 序列zuc祖冲之
-	 */
 	private String parameter;
 
 	/**

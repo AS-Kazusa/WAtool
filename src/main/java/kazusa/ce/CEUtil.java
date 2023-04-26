@@ -2,6 +2,7 @@ package kazusa.ce;
 
 import cn.hutool.core.codec.Base64;
 import kazusa.encoded.EncodedUtil;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
@@ -17,6 +18,24 @@ import java.util.Arrays;
  * @see EncodedUtil
  */
 public class CEUtil {
+
+	/**
+	 * 注册BouncyCastle
+	 * @return 布尔值
+	 */
+	public static boolean addBC() {
+		// -1表示依赖导入但无注册
+		return Security.addProvider(new BouncyCastleProvider()) != -1;
+	}
+
+	/**
+	 * 打印BouncyCastle支持算法
+	 */
+	public static void printProvider() {
+		for (Provider.Service service : new BouncyCastleProvider().getServices()) {
+			System.out.println(service.getType() + ": " + service.getAlgorithm());
+		}
+	}
 
 	/**
 	 * DH密钥交换
@@ -60,8 +79,6 @@ public class CEUtil {
 		// 因为DH密钥最短512位,对称加密算法不支持如此长的密钥长度故截取一部分
 		return Arrays.copyOfRange(secretKey,0,keySize);
 	}
-
-
 
 	/**
 	 * 加密

@@ -1,5 +1,7 @@
 package kazusa.ce;
 
+import kazusa.ce.utils.AsymmetricEncryptionKey;
+import kazusa.string.StringUtil;
 import lombok.Getter;
 
 import javax.crypto.Cipher;
@@ -49,45 +51,55 @@ public class AsymmetricEncryption {
 	private Cipher cipher;
 
 	/**
-	 * @param algorithm 非对称加密算法
+	 * @param asymmetricEncryptionkey 非对称加密密钥对象
+	 * @throws NoSuchAlgorithmException
+	 */
+	public AsymmetricEncryption(AsymmetricEncryptionKey asymmetricEncryptionkey) throws NoSuchAlgorithmException, NoSuchPaddingException, NoSuchProviderException {
+		this.algorithm = asymmetricEncryptionkey.getAlgorithm();
+		KeyPair keyPair = asymmetricEncryptionkey.getKeyPair();
+		// 生成公钥
+		publicKey = keyPair.getPublic();
+		// 生成私钥
+		privateKey = keyPair.getPrivate();
+		initCipher(asymmetricEncryptionkey);
+	}
+
+	/**
+	 * 获取非对称加密算法密钥对
+	 * @param algorithm 算法
+	 * @param publicKey 公钥
+	 * @param privateKey 私钥
+	 * @throws InvalidKeySpecException
+	 * @throws NoSuchAlgorithmException
+	 * @throws NoSuchPaddingException
+	 * @since 1.1.0
+	 */
+	public AsymmetricEncryption(String algorithm, byte[] publicKey, byte[] privateKey) throws InvalidKeySpecException, NoSuchAlgorithmException, NoSuchPaddingException, NoSuchProviderException {
+		// 创建指定非对称加密算法的密钥工厂
+		KeyFactory kf = KeyFactory.getInstance(algorithm);
+		// 创建已编码的私钥规格
+		this.publicKey = kf.generatePublic(new X509EncodedKeySpec(publicKey));
+		// 创建已编码的公钥规格
+		this.privateKey = kf.generatePrivate(new PKCS8EncodedKeySpec(privateKey));
+		initCipher(new AsymmetricEncryptionKey.AsymmetricEncryptionKeyBuilder(algorithm).build());
+	}
+
+	/**
+	 * 初始化加解密对象
+	 * @param asymmetricEncryptionkey 非对称加密密钥对象
 	 * @throws NoSuchPaddingException
 	 * @throws NoSuchAlgorithmException
 	 */
-	public AsymmetricEncryption(String algorithm) throws NoSuchPaddingException, NoSuchAlgorithmException {
-		this(algorithm,-1);
-	}
-
-	/**
-	 * @param algorithm 非对称加密算法
-	 * @param keySize 密钥长度
-	 * @throws NoSuchAlgorithmException
-	 */
-	public AsymmetricEncryption(String algorithm,int keySize) throws NoSuchAlgorithmException, NoSuchPaddingException {
-		this.algorithm = algorithm;
-		initKey(keySize);
+	private void initCipher(AsymmetricEncryptionKey asymmetricEncryptionkey) throws NoSuchPaddingException, NoSuchAlgorithmException, NoSuchProviderException {
 		// 非密钥协商算法实例化加解密对象
-		for (String s : algorithms) {
-			if (algorithm.equals(s)) return;
+		for (String algorithm : algorithms) {
+			if (asymmetricEncryptionkey.getAlgorithm().equals(algorithm)) return;
 		}
-		cipher = Cipher.getInstance(algorithm);
-	}
-
-	/**
-	 * 获取非对称加密密钥
-	 * @param keySize 密钥长度
-	 * @throws NoSuchAlgorithmException
-	 */
-	public void initKey(int keySize) throws NoSuchAlgorithmException {
-		// 实例化密钥对生成器
-		KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(algorithm);
-		// 传入密钥长度,根据密钥长度选择算法版本
-		if (keySize != -1) keyPairGenerator.initialize(keySize);
-		// 生成密钥对
-		KeyPair keyPair = keyPairGenerator.generateKeyPair();
-		// 生成私钥
-		privateKey = keyPair.getPrivate();
-		// 生成公钥
-		publicKey = keyPair.getPublic();
+		if (StringUtil.isNull(asymmetricEncryptionkey.getProvider())) {
+			cipher = Cipher.getInstance(asymmetricEncryptionkey.getAlgorithm());
+		} else {
+			cipher = Cipher.getInstance(asymmetricEncryptionkey.getAlgorithm(),asymmetricEncryptionkey.getProvider());
+		}
 	}
 
 	public void setKey(Key key) {
@@ -104,24 +116,13 @@ public class AsymmetricEncryption {
 	 * @throws InvalidKeyException
 	 */
 	public byte[] getSecretKey(String algorithm,byte[] publicKey) throws NoSuchAlgorithmException, InvalidKeySpecException, InvalidKeyException {
-		// 实例化密钥工厂将包装成X509EncodedKeySpec对象密钥恢复为PublicKey对象
-		PublicKey receivedPublicKey = KeyFactory.getInstance(algorithm).generatePublic(new X509EncodedKeySpec(publicKey));
 		// 生成本地密钥
 		KeyAgreement keyAgreement = KeyAgreement.getInstance(algorithm);
 		// 自己的PrivateKey
 		keyAgreement.init(this.privateKey);
-		// 对方的PublicKey
-		keyAgreement.doPhase(receivedPublicKey, true);
+		// 对方的PublicKey:实例化密钥工厂将已编码公钥规格对象密钥恢复为PublicKey对象
+		keyAgreement.doPhase(KeyFactory.getInstance(algorithm).generatePublic(new X509EncodedKeySpec(publicKey)), true);
 		// 生成SecretKey密钥
 		return keyAgreement.generateSecret();
-	}
-
-	@Deprecated
-	private void type() throws NoSuchAlgorithmException, InvalidKeySpecException {
-		byte[] privateKeyBytes = new byte[0];
-		byte[] publicKeyBytes = new byte[0];
-		KeyFactory kf = KeyFactory.getInstance("RSA");
-		PrivateKey privateKey = kf.generatePrivate(new PKCS8EncodedKeySpec(privateKeyBytes));
-		PublicKey publicKey = kf.generatePublic(new X509EncodedKeySpec(publicKeyBytes));
 	}
 }

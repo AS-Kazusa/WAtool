@@ -3,9 +3,13 @@ package kazusa.ce;
 import kazusa.io.IOUtil;
 import lombok.Data;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.*;
 import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +46,16 @@ public class DigitalCertificate {
 	}
 
 	/**
-	 * 生成数字证书:https://www.liaoxuefeng.com/wiki/1252599548343744/1304227968188450
+	 * <a href="https://www.liaoxuefeng.com/wiki/1252599548343744/1304227968188450">生成数字证书</a>
+	 * 解析证书
+	 * @param path 证书路径
+	 * @param file 证书
+	 * @param password 证书密码
+	 * @throws KeyStoreException
+	 * @throws IOException
+	 * @throws CertificateException
+	 * @throws NoSuchAlgorithmException
+	 * @throws UnrecoverableKeyException
 	 */
 	public DigitalCertificate(String path,String file,String password) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException, UnrecoverableKeyException {
 		// 如果不存在此类属性，则返回由 keystore.type安全属性指定的默认密钥库类型,或字符串"jks"("Java密钥库"的首字母缩写)
@@ -55,6 +68,20 @@ public class DigitalCertificate {
 		this.publicKey = x509Certificate.getPublicKey();
 		// 读取私钥
 		this.privateKey = (PrivateKey) ks.getKey(file, password.toCharArray());
+	}
+
+	/**
+	 * 解析证书
+	 * @param certFile 证书文件对象
+	 */
+	@Deprecated
+	public DigitalCertificate(File certFile) throws CertificateException, NoSuchProviderException, FileNotFoundException {
+		CertificateFactory cf = CertificateFactory.getInstance("X.509", "BC");
+		X509Certificate x509Certificate = (X509Certificate) cf.generateCertificate(new FileInputStream(certFile));
+		this.signatureAlgorithm = x509Certificate.getSigAlgName();
+		this.publicKey = x509Certificate.getPublicKey();
+		// 读取私钥
+		//this.privateKey
 	}
 
 	/**
