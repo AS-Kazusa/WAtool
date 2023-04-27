@@ -1,7 +1,7 @@
 package kazusa.externalcall;
 
 import kazusa.common.codeoptimize.CodeOptimizeUtil;
-import kazusa.io.IOUtil;
+import kazusa.fileio.IOUtil;
 
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
@@ -9,8 +9,8 @@ import javax.script.ScriptEngineManager;
 import java.io.*;
 import java.util.List;
 
-import static kazusa.io.IOUtil.getReaderInputStream;
-import static kazusa.io.IOUtil.string;
+import static kazusa.fileio.IOUtil.getReaderInputStream;
+import static kazusa.fileio.IOUtil.string;
 
 /**
  * 外部调用

@@ -1,4 +1,4 @@
-package kazusa.common.codeoptimize.designpattern.prototype;
+package kazusa.common.codeoptimize.strategicmode.prototype;
 
 import kazusa.common.codeoptimize.CodeOptimizeUtil;
 

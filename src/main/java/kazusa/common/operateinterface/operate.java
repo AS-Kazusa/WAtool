@@ -1,4 +1,4 @@
-package kazusa.common.codeoptimize.operateinterface;
+package kazusa.common.operateinterface;
 
 /**
  * void返回值操作

@@ -1,9 +1,9 @@
 package kazusa.web.ip;
 
 import kazusa.common.codeoptimize.CodeOptimizeUtil;
-import kazusa.common.connectpool.ConnectionImpl;
-import kazusa.common.connectpool.CustomConnectPool;
-import kazusa.io.IOUtil;
+import kazusa.common.utils.connectpool.ConnectionImpl;
+import kazusa.common.utils.connectpool.CustomConnectPool;
+import kazusa.fileio.IOUtil;
 import kazusa.string.StringUtil;
 import kazusa.thread.ThreadUtil;
 import kazusa.web.WebUtil;
@@ -22,7 +22,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static kazusa.io.IOUtil.*;
+import static kazusa.fileio.IOUtil.*;
 
 /**
  * 代理IP池
@@ -439,7 +439,7 @@ public class ProxyIpPool extends CustomConnectPool<ProxyIP> {
 			httpClient = http.getHttpClient();
 			// 配置代理
 			httpClient.proxy(ProxySelector.of(new InetSocketAddress(proxyIP.getIp(),proxyIP.getPort())));
-			httpResponse = http.httpRequest(url, "get","", false);
+			httpResponse = http.httpRequest(url, "get",false,"");
 		} catch (URISyntaxException e) {
 			throw new RuntimeException(e);
 		} finally {

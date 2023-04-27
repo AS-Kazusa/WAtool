@@ -1,10 +1,8 @@
 package kazusa.jdbc;
 
 
-
-import kazusa.common.connectpool.ConnectionImpl;
-import kazusa.common.connectpool.CustomConnectPool;
-import kazusa.io.IOUtil;
+import kazusa.common.utils.connectpool.ConnectionImpl;
+import kazusa.common.utils.connectpool.CustomConnectPool;
 
 import java.io.FileInputStream;
 import java.sql.Connection;
@@ -19,22 +17,6 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0.0
  */
 public class JDBCUtil {
-
-	public static void main(String[] args) throws Exception {
-		String path = IOUtil.path("/java/src/main/resources/io/jdbc/","mysqlconfig.properties");
-		JDBCPool jdbcPool = JDBCUtil.config(path).getJDBCPool();
-		System.out.println(jdbcPool.getCORE_NATURAL_RESOURCES());
-		System.out.println(jdbcPool.getMAX_NATURAL_RESOURCES());
-		Connection connection = jdbcPool.getConnection();
-		System.out.println(connection != null);
-		Connection connection1 = jdbcPool.getConnection();
-		System.out.println(connection1 != null);
-		Connection connection2 = jdbcPool.getConnection();
-		System.out.println(connection2 != null);
-		jdbcPool.setConnection(connection2);
-		Connection connection3 = jdbcPool.getConnection();
-		System.out.println(connection3 != null);
-	}
 
 	/**
 	 * 链接协议规范:jdbc:mysql:// + 数据库服务器ip地址:端口/链接数据库名

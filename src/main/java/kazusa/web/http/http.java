@@ -30,13 +30,13 @@ public class http<T> {
 	 * 快速完成http请求
 	 * @param uri 链接
 	 * @param requestType 请求类型
-	 * @param httpResponseType 数据响应类型
 	 * @param isAsync 是否开启异步请求
+	 * @param httpResponseType 数据响应类型
 	 * @return 返回HttpResponse对象
 	 */
-	public HttpResponse<T> httpRequest(String uri, String requestType,T httpResponseType, boolean isAsync) throws URISyntaxException {
+	public HttpResponse<T> httpRequest(String uri, String requestType,boolean isAsync,T httpResponseType) throws URISyntaxException {
 		httpRequestFactory(uri,requestType);
-		return httpResponse(httpClient.build(), httpRequest.build(), getBodyHandler(httpResponseType), isAsync);
+		return httpResponse(httpClient.build(), httpRequest.build(), isAsync,getBodyHandler(httpResponseType));
 	}
 
 	private HttpClient.Builder httpClient = HttpClient.newBuilder();
@@ -159,11 +159,11 @@ public class http<T> {
 	 * 请求响应方法
 	 * @param httpClient httpClient对象
 	 * @param httpRequest http请求对象
-	 * @param httpResponseType 响应数据类型对象
 	 * @param isAsync 是否开启异步请求
+	 * @param httpResponseType 响应数据类型对象
 	 * @return HttpResponse对象
 	 */
-	private HttpResponse<T> httpResponse(HttpClient httpClient,HttpRequest httpRequest,HttpResponse.BodyHandler<T> httpResponseType,boolean isAsync) {
+	private HttpResponse<T> httpResponse(HttpClient httpClient,HttpRequest httpRequest,boolean isAsync,HttpResponse.BodyHandler<T> httpResponseType) {
 		// 阻塞调用:同步请求
 		if (!isAsync) return CodeOptimizeUtil.tryCatch(() -> httpClient.send(httpRequest, httpResponseType));
 		// 多路IO复用:异步请求,调用join方法阻塞线程直到获取结果

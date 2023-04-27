@@ -1,5 +1,8 @@
-package kazusa.common.codeoptimize.operateinterface;
+package kazusa.common.operateinterface;
 
+/**
+ * @author kazusa
+ */
 @FunctionalInterface
 public interface OperateParameter<T> {
 

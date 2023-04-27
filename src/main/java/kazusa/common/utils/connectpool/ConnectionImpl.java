@@ -1,4 +1,4 @@
-package kazusa.common.connectpool;
+package kazusa.common.utils.connectpool;
 
 /**
  * @param <T>  自定义连接池资源实现接口

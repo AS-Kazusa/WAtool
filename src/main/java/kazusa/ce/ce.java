@@ -1,6 +1,6 @@
 package kazusa.ce;
 
-import kazusa.common.codeoptimize.designpattern.prototype.DeepCopy;
+import kazusa.common.codeoptimize.strategicmode.prototype.DeepCopy;
 import lombok.Data;
 
 import java.io.Serializable;

@@ -4,18 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="feat: Java工具库">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAtool.iml" afterDir="false" />
+    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/SyntacticSugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/classCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/algorithm/CodeOptimizeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/StrategicModeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParametersReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/util.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/dailyrecord/DailyRecordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/encoded/txt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_3_14_01____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_4_3_14_01_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/DeepCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/tactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/tactics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameterReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameterReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/operate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/operate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/CustomConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/CustomConnectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/HttpResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" afterDir="false" />
@@ -40,9 +58,10 @@
         <option value="package-info" />
         <option value="javaWeb" />
         <option value="java" />
+        <option value="JUnit5 &amp; Mockito" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="JavaFormwork" />
-        <option value="JUnit5 &amp; Mockito" />
       </list>
     </option>
   </component>
@@ -92,6 +111,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -103,7 +123,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/kazusa/io/IOUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/kazusa/fileio/IOUtil.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,8 +159,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/DevelopmentProject/note/语言/markdown&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/knowledge/code/内功/408&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -163,15 +186,27 @@
       <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\ce\test" />
       <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\common" />
       <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\ce" />
       <recent name="S:\DevelopmentProject\main\WAtool" />
       <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\ast" />
-      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\common\codegenerator\formwork" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="kazusa.common.aa" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kazusa.fileio" />
       <recent name="kazusa.ce" />
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="kazusa.ce" />
+      <recent name="kazusa.common" />
+      <recent name="kazusa.jdbc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kazusa.antion" />
@@ -184,13 +219,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.ReferenceTypeUtilTest.testStrArray">
-    <configuration name="ReferenceTypeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kazusa.referencetype.ReferenceTypeUtil" />
+  <component name="RunManager" selected="应用程序.SyntacticSugar">
+    <configuration name="AsymmetricEncryptionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.ce.AsymmetricEncryptionTest" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.referencetype.*" />
+          <option name="PATTERN" value="kazusa.ce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,77 +233,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpTest.httpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AsymmetricEncryptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.ce.AsymmetricEncryptionTest" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.web.*" />
+          <option name="PATTERN" value="kazusa.ce.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kazusa.web" />
-      <option name="MAIN_CLASS_NAME" value="kazusa.web.HttpTest" />
-      <option name="METHOD_NAME" value="httpTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceTypeUtilTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EccUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.ce.test.EccUtils" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.referencetype.*" />
+          <option name="PATTERN" value="kazusa.ce.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kazusa.referencetype" />
-      <option name="MAIN_CLASS_NAME" value="kazusa.referencetype.ReferenceTypeUtilTest" />
-      <option name="METHOD_NAME" value="testMain" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceTypeUtilTest.testStrArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SyntacticSugar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.common.SyntacticSugar" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.referencetype.*" />
+          <option name="PATTERN" value="kazusa.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kazusa.referencetype" />
-      <option name="MAIN_CLASS_NAME" value="kazusa.referencetype.ReferenceTypeUtilTest" />
-      <option name="METHOD_NAME" value="testStrArray" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="todoTest.testConditionalProbability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.ce.test.test" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.*" />
+          <option name="PATTERN" value="kazusa.ce.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kazusa" />
-      <option name="MAIN_CLASS_NAME" value="kazusa.todoTest" />
-      <option name="METHOD_NAME" value="testConditionalProbability" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReferenceTypeUtilTest.testStrArray" />
-        <item itemvalue="JUnit.ReferenceTypeUtilTest.testMain" />
-        <item itemvalue="应用程序.ReferenceTypeUtil" />
-        <item itemvalue="JUnit.todoTest.testConditionalProbability" />
-        <item itemvalue="JUnit.HttpTest.httpTest" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.SyntacticSugar" />
+        <item itemvalue="应用程序.EccUtils" />
+        <item itemvalue="应用程序.AsymmetricEncryptionTest" />
+        <item itemvalue="应用程序.AsymmetricEncryptionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +379,24 @@
       <workItem from="1681356015623" duration="918000" />
       <workItem from="1681372442196" duration="1837000" />
       <workItem from="1681376947559" duration="55000" />
-      <workItem from="1681379521718" duration="301000" />
+      <workItem from="1681379521718" duration="3567000" />
+      <workItem from="1681386456302" duration="608000" />
+      <workItem from="1681453666231" duration="1156000" />
+      <workItem from="1681525686093" duration="24000" />
+      <workItem from="1681525720048" duration="14000" />
+      <workItem from="1681535622706" duration="4796000" />
+      <workItem from="1681608662327" duration="5800000" />
+      <workItem from="1681623247294" duration="1655000" />
+      <workItem from="1682229100550" duration="54000" />
+      <workItem from="1682229388316" duration="95000" />
+      <workItem from="1682233513809" duration="9233000" />
+      <workItem from="1682245057555" duration="1233000" />
+      <workItem from="1682314504947" duration="7875000" />
+      <workItem from="1682417765933" duration="10950000" />
+      <workItem from="1682469150857" duration="2407000" />
+      <workItem from="1682471704956" duration="18095000" />
+      <workItem from="1682506600465" duration="1510000" />
+      <workItem from="1682558279404" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 工具库">
       <created>1680343583049</created>
@@ -428,7 +468,112 @@
       <option name="project" value="LOCAL" />
       <updated>1680502167571</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="...">
+      <created>1681380093569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681380093569</updated>
+    </task>
+    <task id="LOCAL-00012" summary="...">
+      <created>1681380110665</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681380110665</updated>
+    </task>
+    <task id="LOCAL-00013" summary="...">
+      <created>1681380116453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681380116453</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: 新增下载功能">
+      <created>1681541554857</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681541554857</updated>
+    </task>
+    <task id="LOCAL-00015" summary="...">
+      <created>1681541598901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681541598901</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: AnnotationUtil new feature&#10;&#10;新增一个获取该类上指定注解方法并修改原来的isAnnotation()方法添加多一个排除注解集合参数">
+      <created>1681616359740</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681616359740</updated>
+    </task>
+    <task id="LOCAL-00017" summary="revert:">
+      <created>1681616462979</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681616462979</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: getAnnotation()新增一个排除注解集合参数">
+      <created>1681616580381</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681616580381</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: 新增下载功能(只支持byte[]和string)">
+      <created>1682421827050</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682421827050</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: 增加对BC的支持">
+      <created>1682479325378</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682479325378</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: 文件对象转流对象(输入流)">
+      <created>1682480487633</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682480487633</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor: 将原来的ioutil拆分出fileio和file,包io -&gt; 更名为fileio&#10;&#10;FileIOUtil对抽出公共部分,存放路径等工具&#10;FileUtil抽出对file操作&#10;IOUtil仅保留流操作">
+      <created>1682575891576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682575891576</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: 增加对jarFile文件操作">
+      <created>1682576391532</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682576391532</updated>
+    </task>
+    <task id="LOCAL-00024" summary="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现">
+      <created>1682577114182</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682577114182</updated>
+    </task>
+    <task id="LOCAL-00025" summary="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现">
+      <created>1682578000056</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1682578000056</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,6 +663,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/main/java/kazusa" />
@@ -526,11 +672,27 @@
     <MESSAGE value="feat: 工具库" />
     <MESSAGE value="feat:Java工具库" />
     <MESSAGE value="feat: Java工具库" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Java工具库" />
+    <MESSAGE value="feat: 新增下载功能" />
+    <MESSAGE value="..." />
+    <MESSAGE value="feat: AnnotationUtil new feature&#10;&#10;新增一个获取该类上指定注解方法并修改原来的isAnnotation()方法添加多一个排除注解集合参数" />
+    <MESSAGE value="revert:" />
+    <MESSAGE value="refactor: getAnnotation()新增一个排除注解集合参数" />
+    <MESSAGE value="feat: 新增下载功能(只支持byte[]和string)" />
+    <MESSAGE value="feat: 增加对BC的支持" />
+    <MESSAGE value="feat: 文件对象转流对象(输入流)" />
+    <MESSAGE value="refactor: 将原来的ioutil拆分出fileio和file,包io -&gt; 更名为fileio&#10;&#10;FileIOUtil对抽出公共部分,存放路径等工具&#10;FileUtil抽出对file操作&#10;IOUtil仅保留流操作" />
+    <MESSAGE value="feat: 增加对jarFile文件操作" />
+    <MESSAGE value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WAtool$Main.ic" NAME="Main 覆盖结果" MODIFIED="1682235794960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kazusa.common.aa.*</FILTER>
+    </SUITE>
   </component>
 </project>

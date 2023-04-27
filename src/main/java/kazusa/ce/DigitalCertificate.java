@@ -1,6 +1,6 @@
 package kazusa.ce;
 
-import kazusa.io.IOUtil;
+import kazusa.fileio.IOUtil;
 import lombok.Data;
 
 import java.io.File;

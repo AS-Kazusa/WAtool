@@ -1,4 +1,4 @@
-package kazusa.common.connectpool;
+package kazusa.common.utils.connectpool;
 
 import java.util.List;
 

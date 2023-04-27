@@ -1,7 +1,7 @@
 package kazusa.thread;
 
 import kazusa.common.codeoptimize.CodeOptimizeUtil;
-import kazusa.common.codeoptimize.operateinterface.operate;
+import kazusa.common.operateinterface.operate;
 import kazusa.string.StringUtil;
 import kazusa.thread.threadpool.CustomConfigThreadPool;
 import kazusa.thread.threadpool.CustomThreadPool;

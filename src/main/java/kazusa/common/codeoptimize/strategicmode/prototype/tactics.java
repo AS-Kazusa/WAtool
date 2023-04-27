@@ -1,4 +1,4 @@
-package kazusa.common.codeoptimize.designpattern.prototype;
+package kazusa.common.codeoptimize.strategicmode.prototype;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

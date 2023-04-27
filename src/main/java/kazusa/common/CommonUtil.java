@@ -1,7 +1,5 @@
 package kazusa.common;
 
-import kazusa.common.codeoptimize.CodeOptimizeUtil;
-
 /**
  * 通用
  * @author kazusa
@@ -37,7 +35,6 @@ public class CommonUtil {
 	 */
 	public static StackTraceElement getMethodStackFrame(int i) {
 		if (i < 0) i = 0;
-		i = i + 2;
 		StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
 		//StackTraceElement[] clone = stackTrace.clone();
 		if (stackTrace.length == 0) return null;
@@ -50,7 +47,7 @@ public class CommonUtil {
 	 * @param autoCloseables 实现对象
 	 */
 	public static void close(AutoCloseable... autoCloseables) {
-		CodeOptimizeUtil.tryCatch(() -> {
+		SyntacticSugar.tryCatch(() -> {
 			for (int i = autoCloseables.length - 1; i >= 0;i--) {
 				if (autoCloseables[i] == null) continue;
 				autoCloseables[i].close();
