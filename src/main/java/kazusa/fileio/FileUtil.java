@@ -90,30 +90,49 @@ public class FileUtil {
 	}
 
 	/**
-	 * jar文件操作
+	 * jar文件crud,下载和上传操作
+	 * JarURLConnection类通过JAR协议建立了一个访问 jar包URL的连接，可以访问这个jar包或者这个包里的某个文件
 	 */
 	public static class jarFile {
 
-		/**
-		 * jar包
-		 * @param path 路径
-		 * @throws IOException
-		 */
-		public static List<File> classJar(String path) throws IOException {
-			// JarURLConnection类通过JAR协议建立了一个访问 jar包URL的连接，可以访问这个jar包或者这个包里的某个文件
-			try (JarFile jarFile = new JarFile(new File(path))) {
-				// 得到该JarFile目录下所有项目
-				Enumeration<JarEntry> entries = jarFile.entries();
-				while (entries.hasMoreElements()) {
-					// 获取jar包下每一个class文件对象
-					JarEntry jarEntry = entries.nextElement();
-					// jar包下相对路径
-					String jarEntryName = jarEntry.getName();
-					// 不是class文件不予处理,jar包内META-INF目录无需处理
-					if (!jarEntryName.endsWith(".class")) continue;
-				}
+		public static JarFile getJarFile(String path) throws IOException {
+			return new JarFile(path);
+		}
+
+		public static JarFile getJarFile(File file) throws IOException {
+			return new JarFile(file);
+		}
+
+		@Deprecated
+		public static void download(JarFile jarFile) {}
+
+		@Deprecated
+		public static void upload(JarFile jarFile) {}
+
+		@Deprecated
+		public static void save(JarFile jarFile) {}
+
+		@Deprecated
+		public static void remove(JarFile jarFile) {}
+
+		@Deprecated
+		public static void update(JarFile jarFile) {}
+
+		@Deprecated
+		public static void get(JarFile jarFile) {}
+
+		@Deprecated
+		public static void list(JarFile jarFile) {
+			// 得到该JarFile目录下所有项目
+			Enumeration<JarEntry> entries = jarFile.entries();
+			while (entries.hasMoreElements()) {
+				// 获取jar包下每一个class文件对象
+				JarEntry jarEntry = entries.nextElement();
+				// jar包下相对路径
+				String jarEntryName = jarEntry.getName();
+				// 不是class文件不予处理,jar包内META-INF目录无需处理
+				if (!jarEntryName.endsWith(".class")) continue;
 			}
-			return null;
 		}
 	}
 
