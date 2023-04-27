@@ -1,0 +1,310 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b401b4fc-ba06-43df-9fd6-6dab481e1d3f\" name=\"变更\" comment=\"revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/SyntacticSugar.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/classCall.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/algorithm/CodeOptimizeUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/StrategicModeUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameters.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParametersReturn.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/utils/util.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/dailyrecord/DailyRecordUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/encoded/txt.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/logback.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/DeepCopy.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/DeepCopy.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/tactics.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/tactics.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameter.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameter.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameterReturn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameterReturn.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateReturn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateReturn.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/operate.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/operate.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectPool.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectPool.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectionImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectionImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/CustomConnectPool.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/CustomConnectPool.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/web/http/HttpResponse.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ChangesViewManager\">\r\n    <option name=\"groupingKeys\">\r\n      <option value=\"directory\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"CompilerWorkspaceConfiguration\">\r\n    <option name=\"MAKE_PROJECT_ON_SAVE\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"package-info\" />\r\n        <option value=\"javaWeb\" />\r\n        <option value=\"java\" />\r\n        <option value=\"JUnit5 &amp; Mockito\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"JavaFormwork\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"master\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"REMOTE\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$/src/main/java/kazusa\" source=\"WAtool/main\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"kazusa &lt;2973768982@qq.com&gt;\" />\r\n        <option value=\"kazusa\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--follow-tags\" />\r\n        <option name=\"title\" value=\"Current Branch\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n        <entry key=\"$PROJECT_DIR$/src/main/java/kazusa\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"SIGN_OFF_COMMIT\" value=\"true\" />\r\n    <option name=\"SWAP_SIDES_IN_COMPARE_BRANCHES\" value=\"true\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"a29fac23-18d9-4ef5-b41b-87b00faf52d0\" />\r\n        <option name=\"url\" value=\"https://github.com/AS-Kazusa/WAtool.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/src/main/java/kazusa/fileio/IOUtil.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"S:\\lib\\maven_local_warehouse\" />\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../../developmenttools/apache-maven-3.8.6\" />\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MlGfsq75Uys1cMo4jKCguSmOOE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showVisibilityIcons\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,\r\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/knowledge/code/内功/408&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\main\\resources\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\main\\java\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\main\\java\\kazusa\\common\\codegenerator\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\main\\java\\kazusa\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\test\\java\\kazusa\\ce\\test\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\test\\java\\kazusa\\common\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\test\\java\\kazusa\\ce\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\" />\r\n      <recent name=\"S:\\DevelopmentProject\\main\\WAtool\\src\\test\\java\\ast\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"ExtractSuperBase.RECENT_KEYS\">\r\n      <recent name=\"kazusa.common.aa\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"kazusa.fileio\" />\r\n      <recent name=\"kazusa.ce\" />\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"kazusa.ce\" />\r\n      <recent name=\"kazusa.common\" />\r\n      <recent name=\"kazusa.jdbc\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"kazusa.antion\" />\r\n      <recent name=\"kazusa.外部调用\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RestServicesNavigator\">\r\n    <treeState>\r\n      <expand />\r\n      <select />\r\n    </treeState>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"应用程序.SyntacticSugar\">\r\n    <configuration name=\"AsymmetricEncryptionTest (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"kazusa.ce.AsymmetricEncryptionTest\" />\r\n      <module name=\"WAtool\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"kazusa.ce.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AsymmetricEncryptionTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"kazusa.ce.AsymmetricEncryptionTest\" />\r\n      <module name=\"WAtool\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"kazusa.ce.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EccUtils\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"kazusa.ce.test.EccUtils\" />\r\n      <module name=\"WAtool\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"kazusa.ce.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SyntacticSugar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"kazusa.common.SyntacticSugar\" />\r\n      <module name=\"WAtool\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"kazusa.common.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"kazusa.ce.test.test\" />\r\n      <module name=\"WAtool\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"kazusa.ce.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"应用程序.test\" />\r\n        <item itemvalue=\"应用程序.SyntacticSugar\" />\r\n        <item itemvalue=\"应用程序.EccUtils\" />\r\n        <item itemvalue=\"应用程序.AsymmetricEncryptionTest\" />\r\n        <item itemvalue=\"应用程序.AsymmetricEncryptionTest (1)\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"b401b4fc-ba06-43df-9fd6-6dab481e1d3f\" name=\"变更\" comment=\"\" />\r\n      <created>1678334861851</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678334861851</updated>\r\n      <workItem from=\"1678334862945\" duration=\"1806000\" />\r\n      <workItem from=\"1678415389768\" duration=\"3737000\" />\r\n      <workItem from=\"1678419974989\" duration=\"22997000\" />\r\n      <workItem from=\"1678507734707\" duration=\"22869000\" />\r\n      <workItem from=\"1678591086234\" duration=\"16906000\" />\r\n      <workItem from=\"1678676402419\" duration=\"7466000\" />\r\n      <workItem from=\"1678760350582\" duration=\"742000\" />\r\n      <workItem from=\"1678770704835\" duration=\"3507000\" />\r\n      <workItem from=\"1678846933617\" duration=\"41044000\" />\r\n      <workItem from=\"1678932220600\" duration=\"9209000\" />\r\n      <workItem from=\"1678944501018\" duration=\"10899000\" />\r\n      <workItem from=\"1679019386023\" duration=\"16070000\" />\r\n      <workItem from=\"1679111519781\" duration=\"5578000\" />\r\n      <workItem from=\"1679119526095\" duration=\"1811000\" />\r\n      <workItem from=\"1679121384467\" duration=\"130000\" />\r\n      <workItem from=\"1679122381103\" duration=\"6069000\" />\r\n      <workItem from=\"1679189913180\" duration=\"18030000\" />\r\n      <workItem from=\"1679277573419\" duration=\"7951000\" />\r\n      <workItem from=\"1679287354557\" duration=\"8625000\" />\r\n      <workItem from=\"1679361939364\" duration=\"15214000\" />\r\n      <workItem from=\"1679379334669\" duration=\"26813000\" />\r\n      <workItem from=\"1679448984587\" duration=\"8707000\" />\r\n      <workItem from=\"1679469489117\" duration=\"2918000\" />\r\n      <workItem from=\"1679533772484\" duration=\"10871000\" />\r\n      <workItem from=\"1679549403444\" duration=\"14755000\" />\r\n      <workItem from=\"1679619553185\" duration=\"12729000\" />\r\n      <workItem from=\"1679649714695\" duration=\"4863000\" />\r\n      <workItem from=\"1679667119453\" duration=\"43000\" />\r\n      <workItem from=\"1679667428043\" duration=\"758000\" />\r\n      <workItem from=\"1679708526727\" duration=\"780000\" />\r\n      <workItem from=\"1679728750337\" duration=\"1323000\" />\r\n      <workItem from=\"1679792611985\" duration=\"626000\" />\r\n      <workItem from=\"1679973407060\" duration=\"121000\" />\r\n      <workItem from=\"1680057860580\" duration=\"4044000\" />\r\n      <workItem from=\"1680062184322\" duration=\"54000\" />\r\n      <workItem from=\"1680062256670\" duration=\"173000\" />\r\n      <workItem from=\"1680065089138\" duration=\"5826000\" />\r\n      <workItem from=\"1680155571697\" duration=\"860000\" />\r\n      <workItem from=\"1680159302947\" duration=\"5763000\" />\r\n      <workItem from=\"1680232448966\" duration=\"9704000\" />\r\n      <workItem from=\"1680316778383\" duration=\"6724000\" />\r\n      <workItem from=\"1680331176365\" duration=\"833000\" />\r\n      <workItem from=\"1680332070064\" duration=\"6071000\" />\r\n      <workItem from=\"1680338206338\" duration=\"10000\" />\r\n      <workItem from=\"1680341478546\" duration=\"1532000\" />\r\n      <workItem from=\"1680343041670\" duration=\"3320000\" />\r\n      <workItem from=\"1680346775327\" duration=\"1037000\" />\r\n      <workItem from=\"1680413862711\" duration=\"2000\" />\r\n      <workItem from=\"1680485933026\" duration=\"6028000\" />\r\n      <workItem from=\"1680492288590\" duration=\"3496000\" />\r\n      <workItem from=\"1680495829362\" duration=\"170000\" />\r\n      <workItem from=\"1680496011929\" duration=\"4090000\" />\r\n      <workItem from=\"1680501810259\" duration=\"442000\" />\r\n      <workItem from=\"1680502285138\" duration=\"1286000\" />\r\n      <workItem from=\"1680505874307\" duration=\"362000\" />\r\n      <workItem from=\"1680506694699\" duration=\"968000\" />\r\n      <workItem from=\"1680580784070\" duration=\"215000\" />\r\n      <workItem from=\"1680581034320\" duration=\"147000\" />\r\n      <workItem from=\"1680581195886\" duration=\"2391000\" />\r\n      <workItem from=\"1680612453675\" duration=\"341000\" />\r\n      <workItem from=\"1680613223322\" duration=\"1354000\" />\r\n      <workItem from=\"1680663463779\" duration=\"1067000\" />\r\n      <workItem from=\"1680670799337\" duration=\"190000\" />\r\n      <workItem from=\"1680679680540\" duration=\"54000\" />\r\n      <workItem from=\"1680746444916\" duration=\"3172000\" />\r\n      <workItem from=\"1680757566067\" duration=\"47000\" />\r\n      <workItem from=\"1680860897071\" duration=\"29000\" />\r\n      <workItem from=\"1680920632289\" duration=\"1133000\" />\r\n      <workItem from=\"1680924465754\" duration=\"53000\" />\r\n      <workItem from=\"1680937407630\" duration=\"3570000\" />\r\n      <workItem from=\"1681012787983\" duration=\"8017000\" />\r\n      <workItem from=\"1681089996202\" duration=\"711000\" />\r\n      <workItem from=\"1681104814695\" duration=\"1511000\" />\r\n      <workItem from=\"1681356015623\" duration=\"918000\" />\r\n      <workItem from=\"1681372442196\" duration=\"1837000\" />\r\n      <workItem from=\"1681376947559\" duration=\"55000\" />\r\n      <workItem from=\"1681379521718\" duration=\"3567000\" />\r\n      <workItem from=\"1681386456302\" duration=\"608000\" />\r\n      <workItem from=\"1681453666231\" duration=\"1156000\" />\r\n      <workItem from=\"1681525686093\" duration=\"24000\" />\r\n      <workItem from=\"1681525720048\" duration=\"14000\" />\r\n      <workItem from=\"1681535622706\" duration=\"4796000\" />\r\n      <workItem from=\"1681608662327\" duration=\"5800000\" />\r\n      <workItem from=\"1681623247294\" duration=\"1655000\" />\r\n      <workItem from=\"1682229100550\" duration=\"54000\" />\r\n      <workItem from=\"1682229388316\" duration=\"95000\" />\r\n      <workItem from=\"1682233513809\" duration=\"9233000\" />\r\n      <workItem from=\"1682245057555\" duration=\"1233000\" />\r\n      <workItem from=\"1682314504947\" duration=\"7875000\" />\r\n      <workItem from=\"1682417765933\" duration=\"10950000\" />\r\n      <workItem from=\"1682469150857\" duration=\"2407000\" />\r\n      <workItem from=\"1682471704956\" duration=\"18095000\" />\r\n      <workItem from=\"1682506600465\" duration=\"1510000\" />\r\n      <workItem from=\"1682558279404\" duration=\"6922000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"feat: 工具库\">\r\n      <created>1680343583049</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680343583049</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"feat: 工具库\">\r\n      <created>1680347176812</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680347176812</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"feat: 工具库\">\r\n      <created>1680347215242</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680347215242</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"feat:Java工具库\">\r\n      <created>1680492618359</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680492618359</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"feat:Java工具库\">\r\n      <created>1680493715548</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680493715548</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"feat:Java工具库\">\r\n      <created>1680494503317</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680494503317</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"feat:Java工具库\">\r\n      <created>1680498043806</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680498043806</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"feat:Java工具库\">\r\n      <created>1680498537221</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680498537221</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"feat: Java工具库\">\r\n      <created>1680501309430</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680501309430</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"feat: Java工具库\">\r\n      <created>1680502167571</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680502167571</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"...\">\r\n      <created>1681380093569</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681380093569</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"...\">\r\n      <created>1681380110665</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681380110665</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"...\">\r\n      <created>1681380116453</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681380116453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"feat: 新增下载功能\">\r\n      <created>1681541554857</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681541554857</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"...\">\r\n      <created>1681541598901</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681541598901</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"feat: AnnotationUtil new feature&#10;&#10;新增一个获取该类上指定注解方法并修改原来的isAnnotation()方法添加多一个排除注解集合参数\">\r\n      <created>1681616359740</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681616359740</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"revert:\">\r\n      <created>1681616462979</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681616462979</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"refactor: getAnnotation()新增一个排除注解集合参数\">\r\n      <created>1681616580381</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681616580381</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"feat: 新增下载功能(只支持byte[]和string)\">\r\n      <created>1682421827050</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682421827050</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"feat: 增加对BC的支持\">\r\n      <created>1682479325378</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682479325378</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"feat: 文件对象转流对象(输入流)\">\r\n      <created>1682480487633</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682480487633</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"refactor: 将原来的ioutil拆分出fileio和file,包io -&gt; 更名为fileio&#10;&#10;FileIOUtil对抽出公共部分,存放路径等工具&#10;FileUtil抽出对file操作&#10;IOUtil仅保留流操作\">\r\n      <created>1682575891576</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682575891576</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"feat: 增加对jarFile文件操作\">\r\n      <created>1682576391532</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682576391532</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现\">\r\n      <created>1682577114182</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682577114182</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现\">\r\n      <created>1682578000056</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682578000056</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"26\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"2260c6d0-d7a4-4fa6-b405-07fd169cbf48\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"9aa5a923-5f24-4f83-8a24-fe949511a61b\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"structure\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"dir:S:/DevelopmentProject/main/WAtool/src/main/java/kazusa\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"2260c6d0-d7a4-4fa6-b405-07fd169cbf48\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/src/main/java/kazusa\" />\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"feat: 工具库\" />\r\n    <MESSAGE value=\"feat:Java工具库\" />\r\n    <MESSAGE value=\"feat: Java工具库\" />\r\n    <MESSAGE value=\"feat: 新增下载功能\" />\r\n    <MESSAGE value=\"...\" />\r\n    <MESSAGE value=\"feat: AnnotationUtil new feature&#10;&#10;新增一个获取该类上指定注解方法并修改原来的isAnnotation()方法添加多一个排除注解集合参数\" />\r\n    <MESSAGE value=\"revert:\" />\r\n    <MESSAGE value=\"refactor: getAnnotation()新增一个排除注解集合参数\" />\r\n    <MESSAGE value=\"feat: 新增下载功能(只支持byte[]和string)\" />\r\n    <MESSAGE value=\"feat: 增加对BC的支持\" />\r\n    <MESSAGE value=\"feat: 文件对象转流对象(输入流)\" />\r\n    <MESSAGE value=\"refactor: 将原来的ioutil拆分出fileio和file,包io -&gt; 更名为fileio&#10;&#10;FileIOUtil对抽出公共部分,存放路径等工具&#10;FileUtil抽出对file操作&#10;IOUtil仅保留流操作\" />\r\n    <MESSAGE value=\"feat: 增加对jarFile文件操作\" />\r\n    <MESSAGE value=\"revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现\" />\r\n    <option name=\"OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/WAtool$Main.ic\" NAME=\"Main 覆盖结果\" MODIFIED=\"1682235794960\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>kazusa.common.aa.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ecaaac5cb0cbb5ae3fbbb5fbe787eb6418ef684e)
++++ b/.idea/workspace.xml	(date 1682579848982)
+@@ -4,39 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/SyntacticSugar.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/classCall.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/algorithm/CodeOptimizeUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/StrategicModeUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameters.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParametersReturn.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/util.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/dailyrecord/DailyRecordUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/encoded/txt.java" afterDir="false" />
++    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="...">
+       <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/DeepCopy.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/tactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/tactics.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameter.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameterReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameterReturn.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateReturn.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/operate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/operate.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectPool.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectionImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/CustomConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/CustomConnectPool.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/HttpResponse.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -106,7 +76,7 @@
+     </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="master" />
+         <entry key="$PROJECT_DIR$/src/main/java/kazusa" value="main" />
+       </map>
+     </option>
+@@ -114,6 +84,11 @@
+     <option name="SIGN_OFF_COMMIT" value="true" />
+     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN"
++  }
++}]]></component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -152,31 +127,31 @@
+     <option name="showLibraryContents" value="true" />
+     <option name="showVisibilityIcons" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/knowledge/code/内功/408&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
++    "dart.analysis.tool.window.visible": "false",
++    "last_opened_file_path": "D:/knowledge/code/utils/maven项目构建工具",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "模块",
++    "project.structure.proportion": "0.17",
++    "project.structure.side.proportion": "0.2",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="S:\DevelopmentProject\main\WAtool\src\main\resources" />
+@@ -290,8 +265,8 @@
+         <item itemvalue="应用程序.test" />
+         <item itemvalue="应用程序.SyntacticSugar" />
+         <item itemvalue="应用程序.EccUtils" />
+-        <item itemvalue="应用程序.AsymmetricEncryptionTest" />
+         <item itemvalue="应用程序.AsymmetricEncryptionTest (1)" />
++        <item itemvalue="应用程序.AsymmetricEncryptionTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -396,7 +371,7 @@
+       <workItem from="1682469150857" duration="2407000" />
+       <workItem from="1682471704956" duration="18095000" />
+       <workItem from="1682506600465" duration="1510000" />
+-      <workItem from="1682558279404" duration="6922000" />
++      <workItem from="1682558279404" duration="8394000" />
+     </task>
+     <task id="LOCAL-00001" summary="feat: 工具库">
+       <created>1680343583049</created>
+@@ -573,7 +548,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682578000056</updated>
+     </task>
+-    <option name="localTasksCounter" value="26" />
++    <task id="LOCAL-00026" summary="...">
++      <created>1682579397267</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1682579397267</updated>
++    </task>
++    <option name="localTasksCounter" value="27" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -673,7 +655,6 @@
+     <MESSAGE value="feat:Java工具库" />
+     <MESSAGE value="feat: Java工具库" />
+     <MESSAGE value="feat: 新增下载功能" />
+-    <MESSAGE value="..." />
+     <MESSAGE value="feat: AnnotationUtil new feature&#10;&#10;新增一个获取该类上指定注解方法并修改原来的isAnnotation()方法添加多一个排除注解集合参数" />
+     <MESSAGE value="revert:" />
+     <MESSAGE value="refactor: getAnnotation()新增一个排除注解集合参数" />
+@@ -683,7 +664,8 @@
+     <MESSAGE value="refactor: 将原来的ioutil拆分出fileio和file,包io -&gt; 更名为fileio&#10;&#10;FileIOUtil对抽出公共部分,存放路径等工具&#10;FileUtil抽出对file操作&#10;IOUtil仅保留流操作" />
+     <MESSAGE value="feat: 增加对jarFile文件操作" />
+     <MESSAGE value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
+-    <option name="LAST_COMMIT_MESSAGE" value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
++    <MESSAGE value="..." />
++    <option name="LAST_COMMIT_MESSAGE" value="..." />
+     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+Index: src/main/resources/logback.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/logback.xml b/src/main/resources/logback.xml
+new file mode 100644
+--- /dev/null	(date 1680669968813)
++++ b/src/main/resources/logback.xml	(date 1680669968813)
+@@ -0,0 +1,118 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!-- 日志级别从低到高分为TRACE < DEBUG < INFO < WARN < ERROR < FATAL，比如: 如果设置为WARN，则低于WARN的信息都不会输出 -->
++<!-- scan:当此属性设置为true时，配置文档如果发生改变，将会被重新加载，默认值为true -->
++<!-- scanPeriod:设置监测配置文档是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒。当scan为true时，此属性生效。默认的时间间隔为1分钟。 -->
++<!-- debug:当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。 -->
++<configuration scan="true" scanPeriod="10 seconds" debug="false">
++	<!-- 尽量别用绝对路径，如果带参数不同容器路径解释可能不同,以下配置参数在pom.xml里 -->
++	<!-- 日志级别 -->
++	<property name="log.root.level" value="info"/>
++	<!-- 其他日志级别 -->
++	<property name="log.other.level" value="info"/>
++	<!-- 日志路径，这里是相对路径，web项目eclipse下会输出到eclipse的安装目录下，如果部署到linux上的tomcat下，会输出到tomcat/bin目录 下 -->
++	<property name="log.base" value="logs"/>
++	<!-- 模块名称， 影响日志配置名，日志文件名 -->
++	<property name="log.moduleName" value="2020-edge-barnacle-application"/>
++	<!-- 日志文件大小 -->
++	<property name="log.max.size" value="500MB"/>
++	<!-- 定义日志输出格式-->
++	<property name="log.pattern"
++	          value="%date{ISO8601} %-1level [%thread] %logger{56}.%method:%L -%msg%n"/>
++	<property name="log.charset" value="UTF-8"/>
++
++	<!--控制台输出 -->
++	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
++		<!-- 用来定义日志的格式 -->
++		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
++			<pattern>${log.pattern}</pattern>
++			<charset>${log.charset}</charset>
++		</encoder>
++	</appender>
++
++	<!-- 日志文件输出 -->
++	<appender name="infoFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
++		<!-- 设置日志不超过${log.max.size}时的保存路径，注意如果 是web项目会保存到Tomcat的bin目录 下 -->
++		<file>${log.base}/info/${log.moduleName}_info.log</file>
++		<!-- 日志输出的文件的格式  -->
++		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
++			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread]%logger{56}.%method:%L -%msg%n</pattern>
++			<charset>${log.charset}</charset>
++		</encoder>
++		<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件。-->
++		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
++			<!--按天回滚-->
++			<fileNamePattern>${log.base}/info/archive/${log.moduleName}_info_%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
++			<!--日志最大存储天数-->
++			<maxHistory>60</maxHistory>
++			<!-- 当天的日志大小 超过${log.max.size}时,压缩日志并保存 -->
++			<maxFileSize>${log.max.size}</maxFileSize>
++		</rollingPolicy>
++		<!--过滤器，只记录INFO级别的日志-->
++		<filter class="ch.qos.logback.classic.filter.LevelFilter">
++			<level>INFO</level>
++			<onMatch>ACCEPT</onMatch>
++			<onMismatch>DENY</onMismatch>
++		</filter>
++	</appender>
++
++	<!-- 日志文件输出 -->
++	<appender name="warnFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
++		<!-- 设置日志不超过${log.max.size}时的保存路径，注意如果 是web项目会保存到Tomcat的bin目录 下 -->
++		<file>${log.base}/warn/${log.moduleName}_warn.log</file>
++		<!-- 日志输出的文件的格式  -->
++		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
++			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread]%logger{56}.%method:%L -%msg%n</pattern>
++		</encoder>
++		<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件。-->
++		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
++			<fileNamePattern>${log.base}/warn/archive/${log.moduleName}_warn_%d{yyyy-MM-dd}.%i.log.zip
++			</fileNamePattern>
++			<!--日志最大存储天数-->
++			<maxHistory>60</maxHistory>
++			<!-- 当天的日志大小 超过${log.max.size}时,压缩日志并保存 -->
++			<maxFileSize>${log.max.size}</maxFileSize>
++		</rollingPolicy>
++		<filter class="ch.qos.logback.classic.filter.LevelFilter">
++			<level>WARN</level>
++			<onMatch>ACCEPT</onMatch>
++			<onMismatch>DENY</onMismatch>
++		</filter>
++	</appender>
++
++	<!-- 日志文件输出 -->
++	<appender name="errorFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
++		<!-- 设置日志不超过${log.max.size}时的保存路径，注意如果 是web项目会保存到Tomcat的bin目录 下 -->
++		<file>${log.base}/error/${log.moduleName}_error.log</file>
++		<!-- 日志输出的文件的格式  -->
++		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
++			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread]%logger{56}.%method:%L -%msg%n</pattern>
++		</encoder>
++		<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件。-->
++		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
++			<fileNamePattern>${log.base}/error/archive/${log.moduleName}_error_%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
++			<!--日志最大存储天数-->
++			<maxHistory>60</maxHistory>
++			<!-- 当天的日志大小 超过${log.max.size}时,压缩日志并保存 -->
++			<maxFileSize>${log.max.size}</maxFileSize>
++		</rollingPolicy>
++		<filter class="ch.qos.logback.classic.filter.LevelFilter">
++			<level>ERROR</level>
++			<onMatch>ACCEPT</onMatch>
++			<onMismatch>DENY</onMismatch>
++		</filter>
++	</appender>
++
++
++	<!-- 为某个包下的所有类的指定Appender 这里也可以指定类名称例如：com.aa.bb.ClassName -->
++	<logger name="org.springframework.aop.framework.CglibAopProxy" additivity="false">
++		<level value="info" />
++		<appender-ref ref="stdout" />
++	</logger>
++	<!-- root将级别为“DEBUG”及大于“DEBUG”的日志信息交给已经配置好的名为“Console”的appender处理，“Console”appender将信息打印到Console -->
++	<root level="info">
++		<appender-ref ref="stdout" /> <!-- 标识这个appender将会添加到这个logger -->
++		<appender-ref ref="infoFile" />
++		<appender-ref ref="warnFile" />
++		<appender-ref ref="errorFile" />
++	</root>
++</configuration>
+\ No newline at end of file
