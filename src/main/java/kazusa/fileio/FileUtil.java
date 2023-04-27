@@ -121,18 +121,29 @@ public class FileUtil {
 		@Deprecated
 		public static void get(JarFile jarFile) {}
 
-		@Deprecated
-		public static void list(JarFile jarFile) {
+		/**
+		 * 指定扫描包下所有指定类型文件
+		 * @param jarFile jar文件对象
+		 * @param suffix 后缀
+		 * @param is 是否排除指定后缀文件
+		 */
+		public static List<File> list(JarFile jarFile,String suffix,boolean is) {
 			// 得到该JarFile目录下所有项目
 			Enumeration<JarEntry> entries = jarFile.entries();
+			List<File> files = new ArrayList<>();
 			while (entries.hasMoreElements()) {
 				// 获取jar包下每一个class文件对象
 				JarEntry jarEntry = entries.nextElement();
 				// jar包下相对路径
 				String jarEntryName = jarEntry.getName();
-				// 不是class文件不予处理,jar包内META-INF目录无需处理
-				if (!jarEntryName.endsWith(".class")) continue;
+				// 判断是否要排除指定后缀文件
+				if(is) {
+					if (!jarEntryName.endsWith(suffix)) files.add(file);
+				} else {
+					if (jarEntryName.endsWith(suffix)) files.add(file);
+				}
 			}
+			return files;
 		}
 	}
 
