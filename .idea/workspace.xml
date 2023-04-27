@@ -4,39 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/SyntacticSugar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/classCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/algorithm/CodeOptimizeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/StrategicModeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParametersReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/dailyrecord/DailyRecordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/encoded/txt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="b401b4fc-ba06-43df-9fd6-6dab481e1d3f" name="变更" comment="...">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/utils/AsymmetricEncryptionKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/DigitalCertificate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/ce/ce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/CodeOptimizeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/StrategicModeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/DeepCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/designpattern/prototype/tactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/strategicmode/prototype/tactics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateParameterReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateParameterReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/OperateReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/OperateReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/codeoptimize/operateinterface/operate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/operateinterface/operate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/ConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/ConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/common/connectpool/CustomConnectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/common/utils/connectpool/CustomConnectPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/externalcall/ExternalCallUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/jdbc/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/referencetype/ReferenceTypeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/thread/ThreadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/HttpResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/http/http.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kazusa/web/ip/ProxyIpPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +134,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/knowledge/code/内功/408&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/DevelopmentProject/main/WAtool&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -179,11 +150,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\DevelopmentProject\main\WAtool\src\main\resources" />
       <recent name="S:\DevelopmentProject\main\WAtool" />
-      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java" />
-      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\common\codegenerator" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\ce\utils" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa\ce" />
       <recent name="S:\DevelopmentProject\main\WAtool\src\main\java\kazusa" />
+      <recent name="S:\DevelopmentProject\main\WAtool\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\DevelopmentProject\main\WAtool\src\test\java\kazusa\ce\test" />
@@ -219,8 +190,8 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="应用程序.SyntacticSugar">
-    <configuration name="AsymmetricEncryptionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.AsymmetricEncryptionTest">
+    <configuration name="AsymmetricEncryptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kazusa.ce.AsymmetricEncryptionTest" />
       <module name="WAtool" />
       <extension name="coverage">
@@ -233,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AsymmetricEncryptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kazusa.ce.AsymmetricEncryptionTest" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tester" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.ce.test.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EccUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kazusa.ce.test.EccUtils" />
+    <configuration name="http" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.http.http" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.ce.test.*" />
+          <option name="PATTERN" value="kazusa.web.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyntacticSugar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kazusa.common.SyntacticSugar" />
+    <configuration name="kazusa.web.http.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.http.test" />
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.common.*" />
+          <option name="PATTERN" value="kazusa.web.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,26 +243,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kazusa.ce.test.test" />
+    <configuration name="HttpTest.httpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WAtool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kazusa.ce.test.*" />
+          <option name="PATTERN" value="kazusa.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="kazusa.web" />
+      <option name="MAIN_CLASS_NAME" value="kazusa.web.HttpTest" />
+      <option name="METHOD_NAME" value="httpTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.SyntacticSugar" />
-        <item itemvalue="应用程序.EccUtils" />
         <item itemvalue="应用程序.AsymmetricEncryptionTest" />
-        <item itemvalue="应用程序.AsymmetricEncryptionTest (1)" />
+        <item itemvalue="应用程序.Tester" />
+        <item itemvalue="应用程序.kazusa.web.http.test" />
+        <item itemvalue="应用程序.http" />
+        <item itemvalue="JUnit.HttpTest.httpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -397,6 +371,8 @@
       <workItem from="1682471704956" duration="18095000" />
       <workItem from="1682506600465" duration="1510000" />
       <workItem from="1682558279404" duration="6922000" />
+      <workItem from="1682582347618" duration="2023000" />
+      <workItem from="1682584426015" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 工具库">
       <created>1680343583049</created>
@@ -685,6 +661,17 @@
     <MESSAGE value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
     <option name="LAST_COMMIT_MESSAGE" value="revert: 增加对jarFile文件操作,当前仅实现对jar包都扫描,其他未实现" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kazusa/ce/AsymmetricEncryption.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
