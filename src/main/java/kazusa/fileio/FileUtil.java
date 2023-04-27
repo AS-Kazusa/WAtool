@@ -92,6 +92,7 @@ public class FileUtil {
 	/**
 	 * jar文件crud,下载和上传操作
 	 * JarURLConnection类通过JAR协议建立了一个访问 jar包URL的连接，可以访问这个jar包或者这个包里的某个文件
+	 * @since 1.1.0
 	 */
 	public static class jarFile {
 
@@ -124,10 +125,18 @@ public class FileUtil {
 		/**
 		 * 指定扫描包下所有指定类型文件
 		 * @param jarFile jar文件对象
+		 */
+		public static List<File> list(JarFile jarFile) throws IOException {
+			return list(jarFile,".class",false);
+		}
+
+		/**
+		 * 指定扫描包下所有指定类型文件
+		 * @param jarFile jar文件对象
 		 * @param suffix 后缀
 		 * @param is 是否排除指定后缀文件
 		 */
-		public static List<File> list(JarFile jarFile,String suffix,boolean is) {
+		public static List<File> list(JarFile jarFile,String suffix,boolean is) throws IOException {
 			// 得到该JarFile目录下所有项目
 			Enumeration<JarEntry> entries = jarFile.entries();
 			List<File> files = new ArrayList<>();
@@ -137,11 +146,13 @@ public class FileUtil {
 				// jar包下相对路径
 				String jarEntryName = jarEntry.getName();
 				// 判断是否要排除指定后缀文件
-				if(is) {
-					if (!jarEntryName.endsWith(suffix)) files.add(file);
-				} else {
-					if (jarEntryName.endsWith(suffix)) files.add(file);
+				if(is && !jarEntryName.endsWith(suffix)) {
+					files.add(new File(new File("." + jarEntryName).getCanonicalPath()));
+					continue;
 				}
+				//String replace = jarEntry.getName().replace("/", ".");
+				//replace = replace.substring(0, replace.length() - 6);
+				files.add(new File(new File("." + jarEntryName).getCanonicalPath()));
 			}
 			return files;
 		}
@@ -164,7 +175,7 @@ public class FileUtil {
 					files.add(mateFiles(path, ".class", false));
 					continue;
 				}
-				files.add(classJar(path));
+				files.add(jarFile.list(jarFile.getJarFile(new File(path))));
 			}
 			return files;
 		}
@@ -207,31 +218,6 @@ public class FileUtil {
 				}
 			}
 			return getFiles();
-		}
-
-		/**
-		 * jar包
-		 * @param path 路径
-		 * @throws IOException
-		 */
-		public static List<File> classJar(String path) throws IOException {
-			// JarURLConnection类通过JAR协议建立了一个访问 jar包URL的连接，可以访问这个jar包或者这个包里的某个文件
-			try (JarFile jarFile = new JarFile(new File(path))) {
-				// 得到该JarFile目录下所有项目
-				Enumeration<JarEntry> entries = jarFile.entries();
-				while (entries.hasMoreElements()) {
-					// 获取jar包下每一个class文件对象
-					JarEntry jarEntry = entries.nextElement();
-					// jar包下相对路径
-					String jarEntryName = jarEntry.getName();
-					// 不是class文件不予处理,jar包内META-INF目录无需处理
-					if (!jarEntryName.endsWith(".class")) continue;
-					//String replace = jarEntry.getName().replace("/", ".");
-					//replace = replace.substring(0, replace.length() - 6);
-					files.add(new File(new File("." + jarEntry.getName()).getCanonicalPath()));
-				}
-			}
-			return files;
 		}
 	}
 }
